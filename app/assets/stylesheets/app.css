@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    /*It fix all the box, it only counts the width and height.*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+img {
+    width: 100%;
+    height: 350px;
+    border: 0;
+    padding: 5px;
+}
+
+html,
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #87CEEB;
+    float: left;
+    width: 100%;
+}
+
+header h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
+    padding: 0 30px;
+}
+
+header ul {
+    list-style: none;
+    margin: 30px 0 0 0;
+    float: right;
+    padding: 0 30px
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.about_us{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.box {
+    float: left;
+    width: 100%;
+    margin: 0.5%;
+}
+
+.box1 {
+    width: 7.33333%;
+    /*Here the math is: 100/12*1 = 8.3333333333333, but is going to be the value number of 7... because we have to consider the margin value.*/
+}
+
+.box2 {
+    width: 15.66667%;
+    /*Here the math is: 100/12*2 = 16.6666666666667, but is going to be the value number of 15... because we have to consider the margin value.*/
+}
+
+.box3 {
+    width: 24%;
+    /*24 +0.5 right +0.5 left = 25*/
+}
+
+.box4 {
+    width: 32.33333%;
+}
+
+.box5 {
+    40.66667%;
+}
+
+.box6 {
+    width: 49%;
+}
+
+.box7 {
+    width: 57.33333%;
+}
+
+.box8 {
+    width: 65.66667%;
+}
+
+.box9 {
+    width: 74%;
+}
+
+.box10 {
+    width: 82.33333%;
+}
+
+.box11 {
+    90.66667%;
+}
+
+.box12 {
+    width: 99%;
+}
+
+
+/*BUTTONS*/
+
+.button {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_medium {
+    padding: 10px 30px;
+}
+
+.button_big {
+    padding: 15px 50px;
+}
+
+
+/*BUTTON COLORS*/
+
+.button_color {
+    background-color: #eb260a;
+    border-color: #d3230a;
+}
+
+.button_color:hover {
+    background-color: #f43d22;
+}
+
+
+/*SHADOW*/
+
+.shadow {
+    box-shadow: 2px 5px 10px #ccc;
+    /*1 descolamento horizontal, 2 desl. vertical, 3 blur ou esfumacado, 4 cor*/
+    -webkit-box-shadow: 2px 5px 10px #ccc;
+    -moz-box-shadow: 2px 5px 10px #ccc;
+    border: 1px solid #ddd;
+}
+
+
+/*BORDERS*/
+
+.border {
+    border-radius: 10px;
+    /*It makes the corners of the borders circular*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+
+/*CONTENT*/
+
+.content {
+    max-width: 1280px;
+    width: 80%;
+    /*We definied that the header max width is going to be 80%*/
+    margin: 0 auto;
+    /*This values will centralize the header.*/
+    padding: 5px;
+}
+
+
+/*TITLE h2*/
+
+.title-2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+
+/*TITLE h2 COLORS*/
+
+.color_title_2 {
+    color: #eb262a;
+}
+
+@media only screen and (max-width: 900px) {
+    .box,.box4, .about_us {
+        width: 90%;
+    }
+}

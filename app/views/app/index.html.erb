@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Food Delivery</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <h1><a>Food App</a></h1>
+            <ul>
+                <li><a><%= link_to 'about', about_path %></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="content">
+            <!--WE ARE USING GRID IN THE articles-->
+            <article class="shadow border box box4">
+                <img src="/italian.jpeg" alt="Italian">
+                <h2 class="title-2 color_title_2">Italian</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', italian_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/vegan.jpeg" alt="Vegan food">
+                <h2 class="title-2 color_title_2">Vegan food</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', vegan_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/middle.jpeg" alt="Middle east">
+                <h2 class="title-2 color_title_2">Middle East</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', middle_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/spanish.jpeg" alt="Spanish">
+                <h2 class="title-2 color_title_2">Spanish Food</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', spanish_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/chinese.jpeg" alt="Chinese">
+                <h2 class="title-2 color_title_2">Chinese Food</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', chinese_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/caffe.jpeg" alt="Caffe">
+                <h2 class="title-2 color_title_2">Caffe</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', coffe_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/falafels.jpeg" alt="Falafels">
+                <h2 class="title-2 color_title_2">Falafels</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', falafel_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/vegetarian.jpeg" alt="vegetarian">
+                <h2 class="title-2 color_title_2">Vegetarian food</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', vegetarian_path %></a>
+            </article>
+
+            <article class="shadow border box box4">
+                <img src="/burgers.jpeg" alt="Burgers">
+                <h2 class="title-2 color_title_2">Burgers</h2>
+                <p>Check all the restaurants of the region</p>
+                <a><%= link_to 'Find Out', burger_path %></a>
+            </article>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
